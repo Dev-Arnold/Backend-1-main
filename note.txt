@@ -1,0 +1,89 @@
+Backend
+
+Javascript (Node.Js)
+Node.Js is a runtime environment for executing Javascript outside of a browser.
+It amplifies Javascript and makes it behave like a backend language.
+Javascript Engine.
+
+Express is a node js framework.
+
+CRUD Operation
+  - Create
+  - Read
+  - Update
+  - Delete
+
+HTTP Methods 
+    - GET 
+    - POST 
+    - PUT/Patch
+    - DELETE 
+
+
+A Database is used to store, manage and retrieve data.
+
+Types
+  - SQL or Relational Database : Stores data in a structured format. Rows and Columns (tables). e.g., PostgreSQL, MySQL, SQLite
+  - No-SQL or Non-Relational Database : Stores data in a flexible format. Documents and collections. e.g., Mongodb, MariaDB etc
+
+Download Mongodb compass and mongodb community server
+Mongodb Compass - local
+  //    Atlas - cloud
+
+MVC
+   Model - This is where we create the schema(structure) of the database. It is also used to query the database
+   View - what the users see.
+   Controller - This is where the logic that recieves requests from the frontend and send back response is written.
+
+
+   Authentication and Authorization
+   Authentication: It refers to verifying the credentials of a user. Its asks the question "who are you?"
+   
+HTTP Status Codes
+      are 3-digit numbers that tell you how a server responded to a request. Here's a quick rundown of common ones:
+
+*1xx: Informational*
+- 100 - Continue: Server received headers, keep sending the body.
+- 101 - Switching Protocols: Server switching protocols (like WebSocket).
+
+*2xx: Success*
+- 200 - OK: Request succeeded.
+- 201 - Created: Resource created (e.g., new user).
+- 204 - No Content: Success, but no content returned.
+
+*3xx: Redirection*
+- 301 - Moved Permanently: Resource moved (update your link).
+- 302 - Found: Resource temporarily at another URL.
+- 304 - Not Modified: Use cached version.
+
+*4xx: Client Error*
+- 400 - Bad Request: Server can't understand the request.
+- 401 -  Unauthorized: Login required.
+- 403 - Forbidden: Access denied (no permission).
+- 404 - Not Found: Resource doesn't exist.
+- 429 - Too Many Requests: Rate limited (slow down).
+
+*5xx: Server Error*
+- 500 - Internal Server Error: Generic server fail.
+- 502 - Bad Gateway: Server got an invalid response from upstream.
+- 503 - Service Unavailable: Server overloaded/down for maintenance.
+
+  *most commonly used HTTP status codes* 
+
+1. 200 - OK (Success)
+2. 404 - Not Found (Resource missing)
+3. 401 - Unauthorized (Auth needed)
+4. 400 - Bad Request (Invalid input)
+5. 500 - Internal Server Error (Server crash)
+6. 201 - Created (Resource created)
+7. 403 - Forbidden (Access denied)
+
+
+*Async/Await* FUNCTIONS in simple terms:
+
+- Async: Tells a function, "You can do other stuff while this is processing."
+- Await: Says, "Hold up, wait for this to finish before moving on."
+
+*How it works:*
+1. Async - lets a function run without blocking others.
+2. Await - pauses that specific function until the task is done.
